@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+
+    "target": "es2020",                          
+    "module": "commonjs",                        
+    "lib": ["es2020", "dom"],                    
+    "allowJs": true,                             
+    "outDir": "./dist",                         
+    "rootDir": "./src",                          
+    "removeComments": true,                      
+    "sourceMap": true,                           
+
+
+    "strict": true,                             
+    "noImplicitAny": true,                       
+    "strictNullChecks": true,                    
+    "strictFunctionTypes": true,                 
+    "strictBindCallApply": true,                 
+    "strictPropertyInitialization": true,         
+
+
+    "moduleResolution": "node",                  
+    "baseUrl": "./",                             
+    "paths": {                                  
+      "@app/*": ["src/app/*"]
+    },
+    "esModuleInterop": true,                     
+    "allowSyntheticDefaultImports": true,        
+
+
+    "experimentalDecorators": true,              
+    "emitDecoratorMetadata": true,              
+    "skipLibCheck": true,                       
+    "forceConsistentCasingInFileNames": true     
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
